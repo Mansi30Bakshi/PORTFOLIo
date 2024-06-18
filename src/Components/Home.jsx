@@ -2,6 +2,10 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import myPic from '../assets/Mansi.jpeg';
+import About from './About';
+import Skills from './Skills';
+import Projects from './Projects';
+import Experience from './Experience';
 
 const Home = () => {
   const [showText, setShowText] = useState(false);
@@ -28,6 +32,7 @@ const Home = () => {
   };
 
   return (
+    <>
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -120,6 +125,11 @@ const Home = () => {
         </div>
       </motion.div>
     </motion.div>
+    <About/>
+    <Skills/>
+    <Projects/>
+    <Experience/>
+    </>
   );
 }
 

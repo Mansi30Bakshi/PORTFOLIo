@@ -16,6 +16,7 @@ import Skills from "./Components/Skills.jsx";
 import Resume from "./Components/About.jsx";
 import Projects from "./Components/Projects.jsx";
 import About from "./Components/About.jsx";
+import Experience from "./Components/Experience.jsx";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -25,6 +26,7 @@ const router = createBrowserRouter(
     <Route path="/skills" element={<Skills />} ></Route>
     <Route path="/about" element={<About />} ></Route>
     <Route path="/projects" element={<Projects/>} ></Route>
+    <Route path="/experiences" element={<Experience/>} ></Route>
   </Route>
   )
 );

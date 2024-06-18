@@ -17,6 +17,7 @@ const Header = () => {
         <Link to="https://www.linkedin.com/in/mansi-bakshi-386b762a7?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BRf2rltBqTqSq%2BxP8jXegow%3D%3D" className='hover:text-white hover:border-b hover:border-white'>Linkedin</Link>
         <Link to="https://drive.google.com/file/d/16FUgSHt9VdlCzxpl9fasEvTq5nCzl4i1/view?usp=sharing" className='hover:text-white hover:border-b hover:border-white'>Resume</Link>
         <Link to="https://github.com/Mansi30Bakshi" className='hover:text-white hover:border-b hover:border-white'>Github</Link>
+        <Link to="https://leetcode.com/u/MansiBakshi/" className='hover:text-white hover:border-b hover:border-white'>Leetcode</Link>
 
 
         </ul>
@@ -30,6 +31,7 @@ const Header = () => {
               <li><Link to="/about" className='mt-2 font-mono'>About Me</Link></li>
               <li><Link to="/skills" className='mt-2 font-mono'>Skills</Link></li>
               <li><Link to="/projects" className='mt-2 font-mono'>Projects</Link></li>
+              <li><Link to="/experiences" className='mt-2 font-mono'>Experience</Link></li>
             </ul>
           )}
         </div>

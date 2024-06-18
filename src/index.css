@@ -1,6 +1,11 @@
 *{
   background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+  color: aliceblue;
+  -webkit-user-select: none;
 }
+.disable-selection {
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

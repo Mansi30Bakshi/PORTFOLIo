@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <>
     <div className='text-white'style={{ backgroundImage: "url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2')" }}>
-    <h1 className='text-center font-medium text-5xl mt-7'>SKILLS</h1>
+    <h1 className='text-center font-semibold text-7xl mt-7'>SKILLS</h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 mt-9 ml-4 mr-4 font-mono">
         <div className="border border-gray-300 p-4 rounded-md bg-slate-800">
           <p>Computer Science Fundamentals</p>

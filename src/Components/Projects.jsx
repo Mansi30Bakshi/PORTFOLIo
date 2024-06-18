@@ -6,6 +6,7 @@ import amala from '../assets/AMALA!.png';
 function Projects() {
   return (
     <>
+      <h1 className='text-center font-semibold text-7xl mt-7'>PROJECTS</h1>
       <div style={{ display: 'flex', alignItems: 'center' }}>
         <h2 className='text-white ml-10 font-mono mt-5 text-justify'>1. CollabConnect : Developed a multi-component React application using Redux for state management. The application consists of four main components: Main, Post, Search, and Quizzie. The application utilizes Redux for state management and React Router for navigation. This project demonstrates my ability to integrate Redux with React for efficient state management and navigation handling in a real-world application.</h2>
         <img src={collab1} className='h-60 w-50 rounded-2xl ml-3' alt="CollabConnect" style={{ marginLeft: '10px' }} />
